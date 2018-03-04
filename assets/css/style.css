@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 32px; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url('../images/sakura.png');
+    border: 5px grey;
+    background-color: #ffffff;
+  }
+
+
+  header {
+    margin-top: 30px;
+    height: 75px;
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: 2px solid grey;
+    overflow: hidden;
+}
+
+  h2 {
+    border-bottom: 1px solid grey;
+    color: teal;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+  
+  h3 {
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: teal;
+  }
+
+  h6 {
+    font-size: 13px;
+}
+
+.connect {
+  float: right;
+  padding: 10px;
+  margin-right: 17%;
+  background-color: #ffffff;
+  margin-top: 30px;
+  height: 20%;
+}
+
+
+.social-icon {
+  float:right;
+  padding: 3px;
+  margin-left:1px;
+}
+
+
+  p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 6px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+  
+  ul, li {
+    font-size: 15px;
+    line-height: 8px;
+    margin-bottom: 6px;
+    padding: 3px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    list-style-type: circle;
+    margin-left: 20px;
+    }
+
+  img {
+    float: left;
+    margin-right: 15px;
+  }
+
+  h1.name {
+    float: left;
+    background: #4aaaa5;
+    height: 100%;
+    padding: 20px 30px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+#main-bio, #description {
+  background-color: #ffffff;
+  
+}
+  
+  .wrapper {
+    width: 500px;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    clear: both;
+    float: left;
+    margin-left: 17%;
+  }
+
+
+
+.topnav {
+  background-color: white;
+  float: right;
+  margin-right: 20px;
+  height: 100%;
+}
+
+.topnav a {
+  float: right;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  height: 50px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: teal;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(142, 228, 142);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  float: left;
+  margin-left: 17%;
+  width: 40%;
+  margin-top: 15px;
+  height:520px; 
+}
+
+#container {
+  float: right;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.text-block {
+   /*position: absolute; */
+  display: inline-block;
+  bottom: 10px;
+  text-align:center;
+  color: black;
+  /*padding-left: 20px;
+  padding-right: 20px;*/
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#pic{
+  height:150px;
+  width:150px
+} 
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+  text-align: center;
+  height: 70px;
+  border-top: 10px solid teal;
+}
+
+
